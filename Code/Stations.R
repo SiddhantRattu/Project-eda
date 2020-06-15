@@ -10,7 +10,7 @@
 
 
 library(data.table)
-
+library(ggplot2)
 runoff_eu_info <- readRDS(<- readRDS(file = './data/raw/runoff_eu_info.rds'))
 
 runoff_eu_info
@@ -35,7 +35,7 @@ lon_lat
 #Queston 5
 
 library(data.table)
-
+library(ggplot2)
 runoff_eu_info <- readRDS(<- readRDS(file = './data/raw/runoff_eu_info.rds'))
 
 runoff_eu_info
